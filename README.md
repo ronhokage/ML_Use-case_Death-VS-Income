@@ -5,6 +5,6 @@ There are 2 use cases that have been explored while analysing the dataset for a 
 
 1)- Impact of income and Ozone level in determining deaths due to respiratory illness.
 
-2)- To determine the no of deaths in regard population, cause of death and income level.
+2)- To determine the no of deaths in regard to population, cause of death and income level.
 
 
