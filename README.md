@@ -18,7 +18,7 @@ each county.
 
 -In the Underlying Cause of Death dataset, several fields were dropped from the dataset as they
 did not bring additional value to the analysis. These fields were 'Notes', 'Crude Rate', 'Year Code',
-7and 'County Code.’ ‘Deaths by cause’ were averaged by year (2010-2019) so that for each
+and 'County Code.’ ‘Deaths by cause’ were averaged by year (2010-2019) so that for each
 county and each underlying cause of death, there was one average number of deaths.
 
 -From the Air Quality Report, the only data used was data for ozone level (‘2nd max 1-hour’),
