@@ -7,7 +7,7 @@ There are 2 use cases that have been explored while analysing the dataset for a 
 
 2)- To determine the no of deaths in regard to population, cause of death and income level.
 
-### Data Preprocessing, Feature Engineering and Selection
+### <ins> Data Preprocessing, Feature Engineering and Selection </ins>
 -In the Personal Income dataset, the two categories ‘population’ (persons) and ‘personal income’
 (in thousands of dollars) were not necessary for this analysis because ‘per capita personal
 income’ (‘personal income’ divided by ‘population’) contained this information.
@@ -39,7 +39,7 @@ Finally, all of the data were merged together into one DataFrame that included t
 features: county, per capita income, ozone level, cause of death (most common), and respiratory
 (yes or no).
 
-### Modelling
+### <ins> Modelling </ins>
 - The model was trained with variety of machine learning algorithms of which decision trees gave the best accuracy.
 - Attached in the deployment folder is the image of the decision tree for this use case.
 - The feature importance was also calculated. Ozone received a score of 0.27
