@@ -42,9 +42,7 @@ features: county, per capita income, ozone level, cause of death (most common), 
 
 ### Modelling
 - The model was trained with variety of machine learning algorithms of which decision trees gave the best accuracy.
-
 - Attached in the deployment folder is the image of the decision tree for this use case.
-
 - The feature importance was also calculated. Ozone received a score of 0.27
 and income received a score of 0.73 indicating the higher importance of income compared with
 ozone in predicting the label.
