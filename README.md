@@ -46,4 +46,35 @@ features: county, per capita income, ozone level, cause of death (most common), 
 and income received a score of 0.73 indicating the higher importance of income compared with
 ozone in predicting the label.
 
+### <ins> Results </ins>
+
+-The 10-fold cross validation of the random model had an average accuracy of 0.51 and the
+decision tree model cross validation had an average accuracy of 0.70. 
+The t-test score was found to be 3.8, with a resulting p-value of 0.001. 
+-Since 0.001 is much less than our significance threshold of 0.05, we reject the null hypothesis and accept the alternative, that the decision tree
+model with income and ozone levels as features performs better than a random model at
+predicting whether the most common cause of death in a county is respiratory related.
+
+-There were 75 instances in which the model predicted true negatives (model predicted a label of ‘no’ correctly). In these
+instances, respiratory disease was not the most common cause of the death and the model
+predicted this correctly. There were 27 instances of false negatives (model predicted ‘no’
+incorrectly), which means the model predicted that respiratory disease was not the most common
+cause of death, but in reality it was (Type II Error).
+There was 1 instance of false positive (model
+predicted ‘yes’ incorrectly), which means the deaths were predicted to occur because of
+respiratory disease, but in reality respiratory disease was not the most common cause (Type I
+Error). There was also 1 instance of true positive (model predicted ‘yes’ correctly) which tells us
+the deaths were predicted to occur due to respiratory diseases and that was the case in reality.
+-From the confusion matrix for the logistic regression model, the results were
+similar with this model, but there were no instances of false positives or true positives.
+
+-From the confusion matrix, we can also compute the accuracy, specificity, and sensitivity of the
+model. Accuracy comes out to be 73% for the same and is a measure of the ability of the model to predict class labels correctly.
+
+-Specificity was 98.6%, which explains how well the model can predict cases in which respiratory related illnesses were not the most
+common cause of death. This is also known as Recall. 
+
+-Sensitivity comes to 50% for our model. This tells us how often the model predicts that
+the most common cause of death was respiratory related correctly.This is also known as
+Precision
 
