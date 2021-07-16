@@ -51,7 +51,8 @@ ozone in predicting the label.
 
 -The 10-fold cross validation of the random model had an average accuracy of 0.51 and the
 decision tree model cross validation had an average accuracy of 0.70. 
-The t-test score was found to be 3.8, with a resulting p-value of 0.001. 
+The t-test score was found to be 3.8, with a resulting p-value of 0.001.
+
 -Since 0.001 is much less than our significance threshold of 0.05, we reject the null hypothesis and accept the alternative, that the decision tree
 model with income and ozone levels as features performs better than a random model at
 predicting whether the most common cause of death in a county is respiratory related.
