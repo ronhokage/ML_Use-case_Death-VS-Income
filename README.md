@@ -45,6 +45,7 @@ features: county, per capita income, ozone level, cause of death (most common), 
 - The feature importance was also calculated. Ozone received a score of 0.27
 and income received a score of 0.73 indicating the higher importance of income compared with
 ozone in predicting the label.
+- The hypothesis testing was performed, which concludes decision trees as the appropriate selection while modelling.
 
 ### <ins> Results </ins>
 
