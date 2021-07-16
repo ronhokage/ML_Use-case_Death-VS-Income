@@ -67,10 +67,10 @@ predicted ‘yes’ incorrectly), which means the deaths were predicted to occur
 respiratory disease, but in reality respiratory disease was not the most common cause (Type I
 Error). There was also 1 instance of true positive (model predicted ‘yes’ correctly) which tells us
 the deaths were predicted to occur due to respiratory diseases and that was the case in reality.
+
 -From the confusion matrix for the logistic regression model, the results were
 similar with this model, but there were no instances of false positives or true positives.
-
--From the confusion matrix, we can also compute the accuracy, specificity, and sensitivity of the
+We can also compute the accuracy, specificity, and sensitivity of the
 model. Accuracy comes out to be 73% for the same and is a measure of the ability of the model to predict class labels correctly.
 
 -Specificity was 98.6%, which explains how well the model can predict cases in which respiratory related illnesses were not the most
