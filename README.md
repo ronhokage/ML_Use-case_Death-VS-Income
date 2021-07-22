@@ -10,9 +10,7 @@ There are 2 use cases that have been explored while analysing the dataset for a 
 ### <ins> Data Preprocessing, Feature Engineering and Selection </ins>
 -In the Personal Income dataset, the two categories ‘population’ (persons) and ‘personal income’
 (in thousands of dollars) were not necessary for this analysis because ‘per capita personal
-income’ (‘personal income’ divided by ‘population’) contained this information.
--These were dropped from the dataset so that only per capita personal income (in dollars) remained. The data
-was then averaged over 10 years (2010-2019) so that there was one average income level for
+income’ (‘personal income’ divided by ‘population’) contained this information and were dropped from the dataset so that only per capita personal income (in dollars) remained. The data was then averaged over 10 years (2010-2019) so that there was one average income level for
 each county.
 
 -In the Underlying Cause of Death dataset, several fields were dropped from the dataset as they
